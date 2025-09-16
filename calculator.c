@@ -62,8 +62,7 @@ int main()
         }
         case 'e':
         {
-            printf("Enter two numbers to find modulus:
-                ");
+            printf("Enter two numbers to find modulus:");
             scanf("%d %d",&a,&b);
             int mod=a%b;
             printf("MODULUS=%d",mod);
